@@ -1,6 +1,9 @@
 # Sales Prediction Using Machine Learning
 
-This project predicts sales from advertising spend on TV, Radio, and Newspaper.
+This project predicts sales from advertising spend on TV, Radio, and Newspaper using Machine Learning.
+Compared multiple regression models including Linear Regression, Ridge, Lasso, Random Forest, and Gradient
+Boosting using R2 Score, MAE, RMSE, and cross-validation.
+Built a Streamlit web app to allow interactive sales prediction from user-entered advertising budgets.
 
 ## Files
 
@@ -8,13 +11,6 @@ This project predicts sales from advertising spend on TV, Radio, and Newspaper.
 - `app.py` - Streamlit app for interactive sales prediction
 - `requirements.txt` - Python dependencies
 
-## Dataset
-
-Place `input.csv` in this project folder. It should contain these columns:
-
-```text
-TV, Radio, Newspaper, Sales
-```
 
 The notebook also supports the original Colab path:
 
