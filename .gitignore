@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.matplotlib-cache/
+streamlit.log
+streamlit.err.log
